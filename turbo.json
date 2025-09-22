@@ -20,8 +20,5 @@
             "cache": false
         }
     },
-    "globalEnv": [
-        "BETTER_AUTH_SECRET",
-        "DATABASE_URL"
-    ]
+    "envMode": "loose"
 }
