@@ -31,14 +31,23 @@ export default async function AuthPage({
             <AuthView path={path} />
 
             <p className="text-muted-foreground text-xs">
-                Powered by{" "}
+                By continuing, you agree to the{" "}
                 <Link
                     className="text-warning underline"
-                    href="https://better-auth.com"
+                    href="/terms"
                     target="_blank"
                 >
-                    better-auth.
+                    Terms of Service
+                </Link>{" "}
+                and{" "}
+                <Link
+                    className="text-warning underline"
+                    href="/privacy"
+                    target="_blank"
+                >
+                    Privacy Policy
                 </Link>
+                .
             </p>
         </main>
     )
