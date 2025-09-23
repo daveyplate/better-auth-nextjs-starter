@@ -15,8 +15,15 @@ export default async function AccountPage({
     const { path } = await params
 
     return (
-        <main className="container p-4 md:p-6">
-            <AccountView path={path} />
+        <main className="container self-center p-4 md:p-6">
+            <AccountView
+                path={path}
+                classNames={{
+                    sidebar: {
+                        base: "sticky top-20"
+                    }
+                }}
+            />
         </main>
     )
 }

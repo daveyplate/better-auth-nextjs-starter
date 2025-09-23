@@ -1,9 +1,10 @@
 export default function TermsPage() {
     return (
-        <>
-            <h1>Terms of Service</h1>
+        <main className="container flex flex-col gap-4 self-center p-4 text-sm md:p-6">
+            <h1 className="font-bold text-2xl">Terms of Service</h1>
 
             <h2>Overview</h2>
+
             <p>
                 This website is operated by Better Auth Starter. Throughout the
                 site, the terms “we”, “us” and “our” refer to Better Auth
@@ -12,6 +13,7 @@ export default function TermsPage() {
                 the user, conditioned upon your acceptance of all terms,
                 conditions, policies and notices stated here.
             </p>
+
             <p>
                 By visiting our site and/or purchasing something from us, you
                 engage in our “Service” and agree to be bound by the following
@@ -22,6 +24,7 @@ export default function TermsPage() {
                 users who are browsers, vendors, customers, merchants, and/or
                 contributors of content.
             </p>
+
             <p>
                 Please read these Terms of Service carefully before accessing or
                 using our website. By accessing or using any part of the site,
@@ -31,6 +34,7 @@ export default function TermsPage() {
                 Terms of Service are considered an offer, acceptance is
                 expressly limited to these Terms of Service.
             </p>
+
             <p>
                 Any new features or tools which are added to the current store
                 shall also be subject to the Terms of Service. You can review
@@ -44,6 +48,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 1 - Online Store Terms</h2>
+
             <p>
                 By agreeing to these Terms of Service, you represent that you
                 are at least the age of majority in your state or province of
@@ -51,6 +56,7 @@ export default function TermsPage() {
                 province of residence and you have given us your consent to
                 allow any of your minor dependents to use this site.
             </p>
+
             <p>
                 You may not use our products for any illegal or unauthorized
                 purpose nor may you, in the use of the Service, violate any laws
@@ -61,6 +67,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 2 - General Conditions</h2>
+
             <p>
                 We reserve the right to refuse service to anyone for any reason
                 at any time. You understand that your content (not including
@@ -70,6 +77,7 @@ export default function TermsPage() {
                 networks or devices. Credit card information is always encrypted
                 during transfer over networks.
             </p>
+
             <p>
                 You agree not to reproduce, duplicate, copy, sell, resell or
                 exploit any portion of the Service, use of the Service, or
@@ -83,6 +91,7 @@ export default function TermsPage() {
             <h2>
                 Section 3 - Accuracy, Completeness and Timeliness of Information
             </h2>
+
             <p>
                 We are not responsible if information made available on this
                 site is not accurate, complete or current. The material on this
@@ -92,6 +101,7 @@ export default function TermsPage() {
                 timely sources of information. Any reliance on the material on
                 this site is at your own risk.
             </p>
+
             <p>
                 This site may contain certain historical information. Historical
                 information, necessarily, is not current and is provided for
@@ -102,6 +112,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 4 - Modifications to the Service and Prices</h2>
+
             <p>
                 Prices for our products are subject to change without notice. We
                 reserve the right at any time to modify or discontinue the
@@ -112,6 +123,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 5 - Products or Services (if applicable)</h2>
+
             <p>
                 Certain products or Services may be available exclusively online
                 through the website. These products or Services may have limited
@@ -119,12 +131,14 @@ export default function TermsPage() {
                 to our Return Policy. To view our Return Policy, please visit
                 the Return Policy page.
             </p>
+
             <p>
                 We have made every effort to display as accurately as possible
                 the colors and images of our products that appear at the store.
                 We cannot guarantee that your computer monitor&apos;s display of
                 any color will be accurate.
             </p>
+
             <p>
                 We reserve the right, but are not obligated, to limit the sales
                 of our products or Services to any person, geographic region or
@@ -142,6 +156,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 6 - Accuracy of Billing and Account Information</h2>
+
             <p>
                 We reserve the right to refuse any order you place with us. We
                 may, in our sole discretion, limit or cancel quantities
@@ -155,6 +170,7 @@ export default function TermsPage() {
                 limit or prohibit orders that, in our sole judgment, appear to
                 be placed by dealers, resellers or distributors.
             </p>
+
             <p>
                 You agree to provide current, complete and accurate purchase and
                 account information for all purchases made at our store. You
@@ -166,6 +182,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 7 - Optional Tools</h2>
+
             <p>
                 We may provide you with access to third-party tools over which
                 we neither monitor nor have any control nor input. You
@@ -176,6 +193,7 @@ export default function TermsPage() {
                 arising from or relating to your use of optional third-party
                 tools.
             </p>
+
             <p>
                 Any use by you of the optional tools offered through the site is
                 entirely at your own risk and discretion and you should ensure
@@ -188,6 +206,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 8 - Third-Party Links</h2>
+
             <p>
                 Certain content, products and Services available via our Service
                 may include materials from third-parties. Third-party links on
@@ -198,6 +217,7 @@ export default function TermsPage() {
                 third-party materials or websites, or for any other materials,
                 products, or Services of third-parties.
             </p>
+
             <p>
                 We are not liable for any harm or damages related to the
                 purchase or use of goods, Services, resources, content, or any
@@ -210,6 +230,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 9 - User Comments, Feedback and Other Submissions</h2>
+
             <p>
                 If, at our request, you send certain specific submissions (for
                 example contest entries) or without a request from us you send
@@ -220,6 +241,7 @@ export default function TermsPage() {
                 distribute, translate and otherwise use in any medium any
                 comments that you forward to us.
             </p>
+
             <p>
                 We are and shall be under no obligation (1) to maintain any
                 comments in confidence; (2) to pay compensation for any
@@ -230,6 +252,7 @@ export default function TermsPage() {
                 objectionable or violates any party’s intellectual property or
                 these Terms of Service.
             </p>
+
             <p>
                 You agree that your comments will not violate any right of any
                 third-party, including copyright, trademark, privacy,
@@ -247,6 +270,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 10 - Personal Information</h2>
+
             <p>
                 Your submission of personal information through the store is
                 governed by our Privacy Policy. To view our Privacy Policy,
@@ -254,6 +278,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 11 - Errors, Inaccuracies and Omissions</h2>
+
             <p>
                 Occasionally there may be information on our site or in the
                 Service that contains typographical errors, inaccuracies or
@@ -265,6 +290,7 @@ export default function TermsPage() {
                 related website is inaccurate at any time without prior notice
                 (including after you have submitted your order).
             </p>
+
             <p>
                 We undertake no obligation to update, amend or clarify
                 information in the Service or on any related website, including
@@ -276,52 +302,65 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 12 - Prohibited Uses</h2>
+
             <p>
                 In addition to other prohibitions as set forth in the Terms of
                 Service, you are prohibited from using the site or its content
                 for the following:
             </p>
+
             <ul>
                 <li>(a) any unlawful purpose;</li>
+
                 <li>
                     (b) to solicit others to perform or participate in any
                     unlawful acts;
                 </li>
+
                 <li>
                     (c) to violate any international, federal, provincial or
                     state regulations, rules, laws, or local ordinances;
                 </li>
+
                 <li>
                     (d) to infringe upon or violate our intellectual property
                     rights or the intellectual property rights of others;
                 </li>
+
                 <li>
                     (e) to harass, abuse, insult, harm, defame, slander,
                     disparage, intimidate, or discriminate based on gender,
                     sexual orientation, religion, ethnicity, race, age, national
                     origin, or disability;
                 </li>
+
                 <li>(f) to submit false or misleading information;</li>
+
                 <li>
                     (g) to upload or transmit viruses or any other type of
                     malicious code that will or may be used in any way that will
                     affect the functionality or operation of the Service or of
                     any related website, other websites, or the Internet;
                 </li>
+
                 <li>
                     (h) to collect or track the personal information of others;
                 </li>
+
                 <li>
                     (i) to spam, phish, pharm, pretext, spider, crawl, or
                     scrape;
                 </li>
+
                 <li>(j) for any obscene or immoral purpose;</li>
+
                 <li>
                     (k) to interfere with or circumvent the security features of
                     the Service or any related website, other websites, or the
                     Internet.
                 </li>
             </ul>
+
             <p>
                 We reserve the right to terminate your use of the Service or any
                 related website for violating any of the prohibited uses.
@@ -330,6 +369,7 @@ export default function TermsPage() {
             <h2>
                 Section 13 - Disclaimer of Warranties; Limitation of Liability
             </h2>
+
             <p>
                 We do not guarantee, represent or warrant that your use of our
                 service will be uninterrupted, timely, secure or error-free. We
@@ -340,6 +380,7 @@ export default function TermsPage() {
                 notice to you. You expressly agree that your use of, or
                 inability to use, the service is at your sole risk.
             </p>
+
             <p>
                 The service and all products and Services delivered to you
                 through the service are (except as expressly stated by us)
@@ -350,6 +391,7 @@ export default function TermsPage() {
                 quality, fitness for a particular purpose, durability, title,
                 and non-infringement.
             </p>
+
             <p>
                 In no case shall Better Auth Starter, our directors, officers,
                 employees, affiliates, agents, contractors, interns, suppliers,
@@ -368,6 +410,7 @@ export default function TermsPage() {
                 transmitted, or otherwise made available via the service, even
                 if advised of their possibility.
             </p>
+
             <p>
                 Because some states or jurisdictions do not allow the exclusion
                 or the limitation of liability for consequential or incidental
@@ -376,6 +419,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 14 - Indemnification</h2>
+
             <p>
                 You agree to indemnify, defend and hold harmless Better Auth
                 Starter and our parent, subsidiaries, affiliates, partners,
@@ -389,6 +433,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 15 - Severability</h2>
+
             <p>
                 In the event that any provision of these Terms of Service is
                 determined to be unlawful, void or unenforceable, such provision
@@ -400,6 +445,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 16 - Termination</h2>
+
             <p>
                 The obligations and liabilities of the parties incurred prior to
                 the termination date shall survive the termination of this
@@ -409,6 +455,7 @@ export default function TermsPage() {
                 that you no longer wish to use our Services, or when you cease
                 using our site.
             </p>
+
             <p>
                 If in our sole judgment you fail, or we suspect that you have
                 failed, to comply with any term or provision of these Terms of
@@ -419,6 +466,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 17 - Entire Agreement</h2>
+
             <p>
                 The failure of us to exercise or enforce any right or provision
                 of these Terms of Service shall not constitute a waiver of such
@@ -431,12 +479,14 @@ export default function TermsPage() {
                 you and us (including, but not limited to, any prior versions of
                 the Terms of Service).
             </p>
+
             <p>
                 Any ambiguities in the interpretation of these Terms of Service
                 shall not be construed against the drafting party.
             </p>
 
             <h2>Section 18 - Governing Law</h2>
+
             <p>
                 These Terms of Service and any separate agreements whereby we
                 provide you Services shall be governed by and construed in
@@ -444,6 +494,7 @@ export default function TermsPage() {
             </p>
 
             <h2>Section 19 - Changes to Terms of Service</h2>
+
             <p>
                 You can review the most current version of the Terms of Service
                 at any time at this page. We reserve the right, at our sole
@@ -454,6 +505,6 @@ export default function TermsPage() {
                 Service following the posting of any changes constitutes
                 acceptance of those changes.
             </p>
-        </>
+        </main>
     )
 }
