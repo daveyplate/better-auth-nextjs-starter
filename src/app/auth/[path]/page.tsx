@@ -30,25 +30,27 @@ export default async function AuthPage({
         <main className="container flex grow flex-col items-center justify-center gap-4 self-center p-4 md:p-6">
             <AuthView path={path} />
 
-            <p className="text-muted-foreground text-xs">
-                By continuing, you agree to the{" "}
-                <Link
-                    className="text-warning underline"
-                    href="/terms"
-                    target="_blank"
-                >
-                    Terms of Service
-                </Link>{" "}
-                and{" "}
-                <Link
-                    className="text-warning underline"
-                    href="/privacy"
-                    target="_blank"
-                >
-                    Privacy Policy
-                </Link>
-                .
-            </p>
+            {!["callback", "sign-out"].includes(path) && (
+                <p className="w-3xs text-center text-muted-foreground text-xs">
+                    By continuing, you agree to our{" "}
+                    <Link
+                        className="text-warning underline"
+                        href="/terms"
+                        target="_blank"
+                    >
+                        Terms of Service
+                    </Link>{" "}
+                    and{" "}
+                    <Link
+                        className="text-warning underline"
+                        href="/privacy"
+                        target="_blank"
+                    >
+                        Privacy Policy
+                    </Link>
+                    .
+                </p>
+            )}
         </main>
     )
 }
